@@ -1,0 +1,246 @@
+/*
+    Azul: 1C50A5 / 287DC7
+    Celeste: 7DC0FB
+    Gris; D9D9D9
+*/
+
+/* General */
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.text-azul {
+    color: #1C50A5;
+}
+
+.sub-titulo {
+    text-transform: uppercase;
+    color: #1C50A5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.sub-titulo-negrita {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+/* Background */
+
+.bg-gris {
+    background-color: #D9D9D9;
+}
+
+/* Decoradores */
+
+.d1 {
+    height: 0.5px;
+    margin-left: 90%;
+    background-color: #7DC0FB;
+  }
+
+.d2 {
+    height: 0.5px;
+    margin-left: 70%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+.d3 {
+    height: 0.5px;
+    width: 40%;
+    background-color: black;
+}
+
+.box-1 {
+    border-style: inset;
+}
+
+/* Iconos */
+
+.ico-square {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 30px; 
+    height: 30px;
+    border: none;
+    box-shadow: 2px 2px 6px 1px black;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s ease;
+    padding: 5px;
+}
+
+.ico-square-i {
+    font-size: 1rem;
+    color: #7DC0FB;
+}
+
+.ico-square:hover {
+    background-color: #7DC0FB;
+}
+
+.ico-square:hover .ico-square-i {
+    color: #FFF;
+}
+
+/* Botones */
+
+.btn-azul {
+    background-color: #1C50A5;
+    color: #FFF;
+    border-radius: 60px;
+    padding: 0.3rem 2rem;
+    border: 2px solid #1C50A5;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.btn-azul:hover {
+    background-color: #FFF;
+    color: #1C50A5;
+    border: 2px solid #1C50A5;
+}
+
+.bttn-square {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 9rem; 
+    height: 9rem;
+    box-shadow: 2px 2px 6px 1px #3E4144;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s ease;
+    padding: 1.5rem;
+}
+
+.bttn-square-i {
+    font-size: 3rem;
+    color: #1C50A5;
+}
+
+.bttn-square-i:hover {
+    color: #7DC0FB;
+}
+
+.bttn-square:hover {
+    box-shadow: 2px 2px 6px 2px #3E4144;
+}
+
+.bttn-search-azul {
+    color: #1C50A5;
+    background: none;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #1C50A5;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.bttn-search-azul:hover {
+    color: #FFF;
+    background-color: #1C50A5;
+    box-shadow: 2px 2px 6px 1px #3E4144;
+}
+
+.bttn-up {
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: rgba(62,65,68,0.5);
+	border-radius: 30%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99999;
+	margin-right: 0px;
+	transition: all .4s ease;
+	text-align: center;
+}
+
+.bttn-up-a:hover .bttn-up-i  {
+    color: #7DC0FB;
+}
+
+.bttn-up-i {
+    font-size: 40px;
+    color: #FFF;
+}
+
+/* Nosotros */
+
+.nosotros-img {
+    background-image: url("../img/foto (1).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Form */
+
+.form-label {
+    color: black;
+    font-weight: 600;
+}
+
+.form-input {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+    width: 100%;
+}
+
+.form-textarea {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+    width: 100%;
+    resize: none;
+}
+
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 4rem 6rem;
+}
+
+.footer-bottom {
+    font-size: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-link {
+    color: black;
+    transition: all 0.4s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #7DC0FB;
+}
+
+.footer-link-i {
+    font-size: 2rem;
+    color: #1C50A5;
+    transition: all 0.4s;
+}
+
+.footer-link-i:hover {
+    color: #7DC0FB;
+}
